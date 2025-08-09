@@ -1,0 +1,27 @@
+# Root-level ignores
+.env
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Backend (server folder)
+server/node_modules/
+server/.env
+server/dist/
+server/build/
+server/logs/
+server/*.log
+server/pids/
+server/*.pid
+
+# Frontend (client folder)
+client/node_modules/
+client/build/
+client/.env
+client/npm-debug.log*
+client/yarn-debug.log*
+client/yarn-error.log*
